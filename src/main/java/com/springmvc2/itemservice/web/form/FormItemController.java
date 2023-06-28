@@ -1,9 +1,9 @@
 package com.springmvc2.itemservice.web.form;
 
-import com.springmvc2.itemservice.domain.item.DeliveryCode;
-import com.springmvc2.itemservice.domain.item.Item;
-import com.springmvc2.itemservice.domain.item.ItemRepository;
-import com.springmvc2.itemservice.domain.item.ItemType;
+import com.springmvc2.itemservice.domain.legacyitem.DeliveryCode;
+import com.springmvc2.itemservice.domain.legacyitem.Item;
+import com.springmvc2.itemservice.domain.legacyitem.ItemRepository;
+import com.springmvc2.itemservice.domain.legacyitem.ItemType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -17,7 +17,6 @@ import java.util.List;
 import java.util.Map;
 
 @Slf4j
-@Controller
 @RequestMapping("/form/items")
 @RequiredArgsConstructor
 public class FormItemController {

@@ -1,4 +1,4 @@
-package com.springmvc2.itemservice.domain.item;
+package com.springmvc2.itemservice.domain.legacyitem;
 
 public enum ItemType {
 
